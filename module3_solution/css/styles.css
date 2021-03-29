@@ -1,0 +1,40 @@
+/**************** general *********************/
+.navbar{
+	background-color:aliceblue;
+	padding-left: 15px;
+}
+.navbar-brand{
+	padding-left: 10px;
+}
+.navbar-brand a, .navbar-brand a:hover{
+	color: black;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+h1{
+	margin-bottom: 30px;
+}
+
+section{
+	background-color: antiquewhite;
+	height: 1000px;
+	margin-bottom: 10px;
+	
+}
+.row{
+	padding: 10px;
+}
+
+/**************** bootstrap xs *********************/
+@media (max-width: 575px){
+	#collapsable-nav #nav-list{
+		background-color: gray;
+	}
+	#nav-list li a{
+		color: white;
+	}
+	#nav-list li a:hover{
+		color: black;
+	}
+}
